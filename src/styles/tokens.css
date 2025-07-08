@@ -3411,7 +3411,7 @@
   --shadow-check-later-glow-user-presence-standard: 0px 4px 4px 0px #00000040;
   --shadow-markers: inset 0px -1px 1px 0px #010101, inset 0px 1px 0px 0px #b1afbf, inset -1px 0px 0px 0px #010101, 0px 4px 4px 0px #00000040;
   --shadow-focused-button: 0px 4px 1px 0px #00000040;
-  --gradient-gradient-diagonal-all-three-brand: linear-gradient(135.01720421713276deg, #9d87ff 20%, #ffa253 85%, #e9ff87 100%);
+  --gradient-gradient-diagonal-all-three-brand: linear-gradient(135.0286622184761deg, #9d87ff 20%, #ffa253 85%, #e9ff87 100%);
   /* personal-plus-professional */
   --gradient-gradient-vertical-gradient: linear-gradient(180deg, #e9ff87 0%, #ffa253 100%);
   --gradient-gradient-linear-gradient: linear-gradient(-90deg, #e9ff87 0%, #ffa253 100%);
@@ -3419,7 +3419,7 @@
   --gradient-gradient-focus-button-stroke: linear-gradient(180deg, #5e5199 0%, #232326 100%);
   --gradient-gradient-radial-gradiant: radial-gradient(circle, #57b6fa 29.63%, #efeff2 37.7%);
   --gradient-gradient-radial-gradiant: radial-gradient(circle, #57b6fa 0%, #bce2fd 23.64%, #e8e7ec 41.23%);
-  --gradient-gradient-wall-floor-gradient: linear-gradient(118.67424910662628deg, #b19fff 4.05%, #9b674726 27.66%, #9961320d 27.66%, #efeff2 100%);
+  --gradient-gradient-wall-floor-gradient: linear-gradient(118.678659343301deg, #b19fff 4.05%, #9b674726 27.66%, #9961320d 27.66%, #efeff2 100%);
   --gradient-gradient-focus-button-personal-filled: linear-gradient(180deg, #e9ff87 0%, #2f331b 100%);
   --gradient-gradient-focus-button-personal-placeholder: linear-gradient(180deg, #e9ff87 90%, #2f331b 100%);
   --gradient-gradient-focus-button-professional-filled: linear-gradient(180deg, #ffa253 0%, #332011 100%);
