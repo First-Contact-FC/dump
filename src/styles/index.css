@@ -1,0 +1,8 @@
+/* Base tokens */
+@import "./tokens.css";
+
+/* Theme: Lightmode */
+@import "./tokens.lightmode.css";
+
+/* Theme: Darkmode */
+@import "./tokens.darkmode.css";
