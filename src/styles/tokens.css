@@ -664,7 +664,7 @@
   /* Image button border radius - consistent with other buttons */
   --dimension-component-button-image-button-border-radius: var(--dimension-semantic-layout-corner-radius-lg);
   /* Image button opacity on hover - subtle image feedback */
-  --dimension-component-button-image-button-opacity-hover: var(--dimension-semantic-opacity-80);
+  --dimension-component-button-image-button-opacity-hover: var(--dimension-foundation-opacity-80);
   /* Upload button border width - medium for clear upload area definition */
   --dimension-component-button-upload-button-border-width: var(--dimension-semantic-layout-border-width-medium);
   /* Input field border width - subtle definition without overwhelming */
@@ -722,7 +722,7 @@
   /* Card body font size - standard readable size for card content */
   --dimension-component-card-body-font-size: var(--dimension-semantic-typography-font-size-desktop-base);
   /* Card body line height - comfortable reading for card content */
-  --dimension-component-card-body-line-height: var(--dimension-semantic-typography-line-height-desktop-base);
+  --dimension-component-card-body-line-height: var(--dimension-foundation-typography-line-height-desktop-base);
   /* Navigation bar horizontal padding - comfortable spacing from edges */
   --dimension-component-navigation-navbar-padding-x: var(--dimension-semantic-layout-spacing-xl);
   /* Navigation bar vertical padding - adequate height for navigation */
@@ -768,7 +768,7 @@
   /* Table cell vertical padding - adequate height for data rows */
   --dimension-component-table-cell-padding-y: var(--dimension-semantic-layout-spacing-md);
   /* Modal overlay opacity - dims background while maintaining context */
-  --dimension-component-modal-overlay-opacity: var(--dimension-semantic-opacity-80);
+  --dimension-component-modal-overlay-opacity: var(--dimension-foundation-opacity-80);
   /* Modal container border radius - large rounding for friendly appearance */
   --dimension-component-modal-container-border-radius: var(--dimension-semantic-layout-corner-radius-xl);
   /* Modal container padding - generous spacing for modal content */
@@ -788,7 +788,7 @@
   /* Modal close button border radius - circular for close button appearance */
   --dimension-component-modal-close-button-border-radius: var(--dimension-semantic-layout-corner-radius-full);
   /* Lightbox overlay opacity - darker overlay for image viewing */
-  --dimension-component-lightbox-overlay-opacity: var(--dimension-semantic-opacity-90);
+  --dimension-component-lightbox-overlay-opacity: var(--dimension-foundation-opacity-90);
   /* Lightbox container border radius - subtle rounding for image container */
   --dimension-component-lightbox-container-border-radius: var(--dimension-semantic-layout-corner-radius-lg);
   /* Alert border width - subtle definition for all alert types */
@@ -872,21 +872,21 @@
   /* Vertical line horizontal margin - spacing left and right of divider */
   --dimension-component-layout-vertical-line-margin-x: var(--dimension-semantic-layout-spacing-lg);
   /* Primary brand overlay opacity - subtle purple tint for brand consistency */
-  --dimension-component-media-image-presets-primary-brand-overlay-opacity: var(--dimension-semantic-opacity-10);
+  --dimension-component-media-image-presets-primary-brand-overlay-opacity: var(--dimension-foundation-opacity-10);
   /* Warm focus overlay opacity - subtle orange tint for warm brand feel */
-  --dimension-component-media-image-presets-professional-focus-overlay-opacity: var(--dimension-semantic-opacity-5);
+  --dimension-component-media-image-presets-professional-focus-overlay-opacity: var(--dimension-foundation-opacity-5);
   /* Fresh energy overlay opacity - subtle lime tint for fresh brand feel */
-  --dimension-component-media-image-presets-personal-energy-overlay-opacity: var(--dimension-semantic-opacity-5);
+  --dimension-component-media-image-presets-personal-energy-overlay-opacity: var(--dimension-foundation-opacity-5);
   /* Accessibility overlay opacity - no overlay to maintain maximum contrast */
-  --dimension-component-media-image-presets-accessibility-first-overlay-opacity: var(--dimension-semantic-opacity-0);
+  --dimension-component-media-image-presets-accessibility-first-overlay-opacity: var(--dimension-foundation-opacity-0);
   /* Text overlay opacity - sufficient darkness to ensure text readability */
-  --dimension-component-media-image-accessibility-overlay-opacity-for-text: var(--dimension-semantic-opacity-60);
+  --dimension-component-media-image-accessibility-overlay-opacity-for-text: var(--dimension-foundation-opacity-60);
   /* Video player border radius - consistent with other media elements */
   --dimension-component-media-video-border-radius: var(--dimension-semantic-layout-corner-radius-lg);
   /* Video box border radius - consistent with video player styling */
   --dimension-component-media-video-box-border-radius: var(--dimension-semantic-layout-corner-radius-lg);
   /* Video player controls opacity - semi-transparent overlay for controls */
-  --dimension-component-media-video-player-controls-opacity: var(--dimension-semantic-opacity-80);
+  --dimension-component-media-video-player-controls-opacity: var(--dimension-foundation-opacity-80);
   /* Progress bar height - thin bar for subtle progress indication */
   --dimension-component-specialized-progress-bar-height: var(--dimension-semantic-layout-sizing-xs);
   /* Progress bar border radius - pill-shaped for smooth progress bar */
@@ -902,7 +902,7 @@
   /* Text body font weight - regular for body text readability */
   --dimension-component-text-body-font-weight: var(--dimension-semantic-typography-font-weight-regular);
   /* Text body line height - comfortable reading for body text */
-  --dimension-component-text-body-line-height: var(--dimension-semantic-typography-line-height-desktop-base);
+  --dimension-component-text-body-line-height: var(--dimension-foundation-typography-line-height-desktop-base);
   /* Small focus building zone boundary - for intimate concentration areas */
   --dimension-s-metaverse-spatial-zone-boundaries-focus-building-small: var(--dimension-foundation-spacing-xl);
   /* Tiny avatar scale - minimal representation for distant or overview contexts */
@@ -1790,314 +1790,314 @@
   /* Error alert background - subtle red background for error messages */
   --color-c-site-app-alert-error-background-inverse: #fe775f;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
-  --color-foundation-colors-brand-primary-50: #f5f3ff;
+  --color-foundation-colors-brand-primary-50: #100e1a;
   /* Very light purple brand color - use for hover states, light backgrounds, and gentle zone transitions */
-  --color-foundation-colors-brand-primary-100: #ebe7ff;
+  --color-foundation-colors-brand-primary-100: #1f1b33;
   /* Light purple brand color - use for subtle emphasis, light overlays, and gentle area definition */
-  --color-foundation-colors-brand-primary-150: #e2dbff;
+  --color-foundation-colors-brand-primary-150: #2f294d;
   /* Light-medium purple brand color - use for borders, secondary elements, and soft interactive highlights */
-  --color-foundation-colors-brand-primary-200: #d8cfff;
+  --color-foundation-colors-brand-primary-200: #3f3666;
   /* Medium-light purple brand color - use for duotone secondary layers, avatar status indicators, and zone accents */
-  --color-foundation-colors-brand-primary-300: #c4b7ff;
+  --color-foundation-colors-brand-primary-300: #5e5199;
   /* Medium purple brand color - use for interactive states, emphasis, user interaction glows, and zone highlights */
-  --color-foundation-colors-brand-primary-400: #b19fff;
+  --color-foundation-colors-brand-primary-400: #7e6ccc;
   /* Main purple brand color - use for primary actions, brand identity, zone identification, and primary virtual elements */
   --color-foundation-colors-brand-primary-500: #9d87ff;
   /* Medium-dark purple brand color - use for hover states, emphasis, active zone states, and user presence indicators */
-  --color-foundation-colors-brand-primary-600: #7e6ccc;
+  --color-foundation-colors-brand-primary-600: #b19fff;
   /* Dark purple brand color - use for pressed states, strong emphasis, mentor badges, and high-priority elements */
-  --color-foundation-colors-brand-primary-700: #5e5199;
+  --color-foundation-colors-brand-primary-700: #c4b7ff;
   /* Very dark purple brand color - use for high contrast, strong emphasis, and maximum contrast virtual elements */
-  --color-foundation-colors-brand-primary-800: #3f3666;
+  --color-foundation-colors-brand-primary-800: #d8cfff;
   /* Extra dark purple brand color - use for maximum contrast needs and deep shadow effects */
-  --color-foundation-colors-brand-primary-850: #2f294d;
+  --color-foundation-colors-brand-primary-850: #e2dbff;
   /* Darkest purple brand color - use for text on light backgrounds and maximum contrast elements */
-  --color-foundation-colors-brand-primary-900: #1f1b33;
+  --color-foundation-colors-brand-primary-900: #ebe7ff;
   /* Deepest purple brand color - use for maximum contrast, depth, and deep environmental shadows */
-  --color-foundation-colors-brand-primary-950: #100e1a;
+  --color-foundation-colors-brand-primary-950: #f5f3ff;
   /* Lightest orange brand color - use for subtle warm backgrounds, focus building ambiance, and calm work areas */
-  --color-foundation-colors-brand-professional-50: #fff6ee;
+  --color-foundation-colors-brand-professional-50: #1a1008;
   /* Very light orange brand color - use for warm background tones, focus area ambient lighting, and concentration zones */
-  --color-foundation-colors-brand-professional-100: #ffecdd;
+  --color-foundation-colors-brand-professional-100: #4d3119;
   /* Light orange brand color - use for warm subtle emphasis, focus space definition, and work area boundaries */
-  --color-foundation-colors-brand-professional-150: #ffe3cb;
+  --color-foundation-colors-brand-professional-150: #4d3119;
   /* Light-medium orange brand color - use for warm borders, accents, focus building exteriors, and work area boundaries */
-  --color-foundation-colors-brand-professional-200: #ffdaba;
+  --color-foundation-colors-brand-professional-200: #664121;
   /* Medium-light orange brand color - use for warm duotone effects, focus area indicators, and concentration space accents */
-  --color-foundation-colors-brand-professional-300: #ffc798;
+  --color-foundation-colors-brand-professional-300: #996132;
   /* Medium orange brand color - use for warm interactive states, focus mode user glows, and deep work indicators */
-  --color-foundation-colors-brand-professional-400: #ffb575;
+  --color-foundation-colors-brand-professional-400: #cc8242;
   /* Main orange brand color - use for secondary actions, warm emphasis, focus building identification, and concentration markers */
   --color-foundation-colors-brand-professional-500: #ffa253;
   /* Medium-dark orange brand color - use for warm hover states, active focus states, and emphasized work areas */
-  --color-foundation-colors-brand-professional-600: #cc8242;
+  --color-foundation-colors-brand-professional-600: #ffb575;
   /* Dark orange brand color - use for warm pressed states, focus zone emphasis, and deep concentration indicators */
-  --color-foundation-colors-brand-professional-700: #996132;
+  --color-foundation-colors-brand-professional-700: #ffc798;
   /* Very dark orange brand color - use for warm high contrast, focus elements, and strong work area definition */
-  --color-foundation-colors-brand-professional-800: #664121;
+  --color-foundation-colors-brand-professional-800: #ffdaba;
   /* Extra dark orange brand color - use for warm maximum contrast, deep work shadows, and focus contrast */
-  --color-foundation-colors-brand-professional-850: #4d3119;
+  --color-foundation-colors-brand-professional-850: #ffe3cb;
   /* Darkest orange brand color - use for warm text on light backgrounds, focus text overlays, and maximum contrast work elements */
-  --color-foundation-colors-brand-professional-900: #332011;
+  --color-foundation-colors-brand-professional-900: #ffecdd;
   /* Deepest orange brand color - use for warm maximum depth, focus space contrast, and deep environmental definition */
-  --color-foundation-colors-brand-professional-950: #1a1008;
+  --color-foundation-colors-brand-professional-950: #fff6ee;
   /* Lightest lime brand color - use for fresh energetic backgrounds, creative space ambiance, and work-n-play areas */
-  --color-foundation-colors-brand-personal-50: #fdfff3;
+  --color-foundation-colors-brand-personal-50: #171a0e;
   /* Very light lime brand color - use for creative space backgrounds, playful area lighting, and collaborative zones */
-  --color-foundation-colors-brand-personal-100: #fbffe7;
+  --color-foundation-colors-brand-personal-100: #2f331b;
   /* Light lime brand color - use for creative subtle emphasis, playful area definition, and collaborative boundaries */
-  --color-foundation-colors-brand-personal-150: #f8ffdb;
+  --color-foundation-colors-brand-personal-150: #464d29;
   /* Light-medium lime brand color - use for creative borders, accents, work-n-play building exteriors, and creative area boundaries */
-  --color-foundation-colors-brand-personal-200: #f6ffcf;
+  --color-foundation-colors-brand-personal-200: #5d6636;
   /* Medium-light lime brand color - use for creative duotone effects, collaboration indicators, and playful space accents */
-  --color-foundation-colors-brand-personal-300: #f2ffb7;
+  --color-foundation-colors-brand-personal-300: #8c9951;
   /* Medium lime brand color - use for creative interactive states, work-n-play user glows, event indicators, and creative activity markers */
-  --color-foundation-colors-brand-personal-400: #edff9f;
+  --color-foundation-colors-brand-personal-400: #bacc6c;
   /* Main lime brand color - use for creative actions, fresh emphasis, work-n-play building identification, and creative area markers */
   --color-foundation-colors-brand-personal-500: #e9ff87;
   /* Medium-dark lime brand color - use for creative hover states, active creative states, and emphasized playful areas */
-  --color-foundation-colors-brand-personal-600: #bacc6c;
+  --color-foundation-colors-brand-personal-600: #edff9f;
   /* Dark lime brand color - use for creative pressed states, zone emphasis, and strong playful area definition */
-  --color-foundation-colors-brand-personal-700: #8c9951;
+  --color-foundation-colors-brand-personal-700: #f2ffb7;
   /* Very dark lime brand color - use for creative high contrast, strong playful definition, and maximum creative emphasis */
-  --color-foundation-colors-brand-personal-800: #5d6636;
+  --color-foundation-colors-brand-personal-800: #f6ffcf;
   /* Extra dark lime brand color - use for creative maximum contrast, deep playful shadows, and creative contrast */
-  --color-foundation-colors-brand-personal-850: #464d29;
+  --color-foundation-colors-brand-personal-850: #f8ffdb;
   /* Darkest lime brand color - use for creative text on light backgrounds, playful text overlays, and maximum contrast creative elements */
-  --color-foundation-colors-brand-personal-900: #2f331b;
+  --color-foundation-colors-brand-personal-900: #fbffe7;
   /* Deepest lime brand color - use for creative maximum depth, playful space contrast, and deep environmental shadows */
-  --color-foundation-colors-brand-personal-950: #171a0e;
+  --color-foundation-colors-brand-personal-950: #fdfff3;
   /* Lightest white tone - use for primary backgrounds, main surfaces, and clean environmental foundations */
-  --color-foundation-colors-neutral-white-50: #fdfdff;
+  --color-foundation-colors-neutral-white-50: #18181a;
   /* Very light white tone - use for subtle surface variations, gentle backgrounds, and clean area definition */
-  --color-foundation-colors-neutral-white-100: #fcfbff;
+  --color-foundation-colors-neutral-white-100: #302f33;
   /* Light white tone - use for gentle surface emphasis, soft backgrounds, and clean area boundaries */
-  --color-foundation-colors-neutral-white-150: #faf9ff;
+  --color-foundation-colors-neutral-white-150: #48474d;
   /* Light-medium white tone - use for surface borders, dividers, and clean area separation */
-  --color-foundation-colors-neutral-white-200: #f9f7ff;
+  --color-foundation-colors-neutral-white-200: #605e66;
   /* Medium-light white tone - use for surface accents, gentle highlights, and clean environmental emphasis */
-  --color-foundation-colors-neutral-white-300: #f6f3ff;
+  --color-foundation-colors-neutral-white-300: #908d99;
   /* Medium white tone - use for surface emphasis, information boards, and neutral interactive surfaces */
-  --color-foundation-colors-neutral-white-400: #f3efff;
+  --color-foundation-colors-neutral-white-400: #c0bccc;
   /* Main white color - use for primary surfaces, backgrounds, input fields, and neutral foundations */
   --color-foundation-colors-neutral-white-500: #f0ebff;
   /* Medium-dark white tone - use for subtle text, icons, and gentle contrast elements */
-  --color-foundation-colors-neutral-white-600: #c0bccc;
+  --color-foundation-colors-neutral-white-600: #f3efff;
   /* Dark white tone - use for secondary text, elements, and moderate contrast markers */
-  --color-foundation-colors-neutral-white-700: #908d99;
+  --color-foundation-colors-neutral-white-700: #f6f3ff;
   /* Very dark white tone - use for strong contrast elements, emphasis, and clear definition */
-  --color-foundation-colors-neutral-white-800: #605e66;
+  --color-foundation-colors-neutral-white-800: #f9f7ff;
   /* Extra dark white tone - use for maximum contrast needs and strong emphasis */
-  --color-foundation-colors-neutral-white-850: #48474d;
+  --color-foundation-colors-neutral-white-850: #faf9ff;
   /* Darkest white tone - use for high contrast text and maximum emphasis */
-  --color-foundation-colors-neutral-white-900: #302f33;
+  --color-foundation-colors-neutral-white-900: #fcfbff;
   /* Deepest white tone - use for maximum contrast depth and strong definition */
-  --color-foundation-colors-neutral-white-950: #18181a;
+  --color-foundation-colors-neutral-white-950: #fdfdff;
   /* Lightest gray tone - use for subtle backgrounds, gentle separation, and soft container backgrounds */
-  --color-foundation-colors-neutral-gray-50: #f7f7f9;
+  --color-foundation-colors-neutral-gray-50: #121213;
   /* Very light gray tone - use for container backgrounds, subtle emphasis, and gentle area definition */
-  --color-foundation-colors-neutral-gray-100: #efeff2;
+  --color-foundation-colors-neutral-gray-100: #232326;
   /* Light gray tone - use for gentle borders, dividers, and soft area separation */
-  --color-foundation-colors-neutral-gray-150: #e8e7ec;
+  --color-foundation-colors-neutral-gray-150: #353539;
   /* Light-medium gray tone - use for borders, inactive elements, quiet company indicators, and subtle boundaries */
-  --color-foundation-colors-neutral-gray-200: #e0dfe5;
+  --color-foundation-colors-neutral-gray-200: #47464c;
   /* Medium-light gray tone - use for disabled states, subtle emphasis, and gentle contrast */
-  --color-foundation-colors-neutral-gray-300: #d0cfd9;
+  --color-foundation-colors-neutral-gray-300: #6a6973;
   /* Medium gray tone - use for placeholder text, secondary elements, text-only mode indicators, and balanced tones */
-  --color-foundation-colors-neutral-gray-400: #c1bfcc;
+  --color-foundation-colors-neutral-gray-400: #8e8c99;
   /* Main gray color - use for tertiary text, balanced neutral elements, and neutral foundations */
   --color-foundation-colors-neutral-gray-500: #b1afbf;
   /* Medium-dark gray tone - use for secondary text, icons, and balanced contrast elements */
-  --color-foundation-colors-neutral-gray-600: #8e8c99;
+  --color-foundation-colors-neutral-gray-600: #c1bfcc;
   /* Dark gray tone - use for primary text, important elements, and strong neutral emphasis */
-  --color-foundation-colors-neutral-gray-700: #6a6973;
+  --color-foundation-colors-neutral-gray-700: #d0cfd9;
   /* Very dark gray tone - use for high contrast text, emphasis, and strong definition */
-  --color-foundation-colors-neutral-gray-800: #47464c;
+  --color-foundation-colors-neutral-gray-800: #e0dfe5;
   /* Extra dark gray tone - use for maximum contrast needs and deep shadows */
-  --color-foundation-colors-neutral-gray-850: #353539;
+  --color-foundation-colors-neutral-gray-850: #e8e7ec;
   /* Darkest gray tone - use for maximum contrast text and deep emphasis */
-  --color-foundation-colors-neutral-gray-900: #232326;
+  --color-foundation-colors-neutral-gray-900: #efeff2;
   /* Deepest gray tone - use for absolute maximum contrast and deep definition */
-  --color-foundation-colors-neutral-gray-950: #121213;
-  --color-foundation-colors-neutral-gray-duotone-1: #b1afbf99;
+  --color-foundation-colors-neutral-gray-950: #f7f7f9;
+  --color-foundation-colors-neutral-gray-duotone-1: #35353999;
   --color-foundation-colors-neutral-gray-duotone-2: #6a6973e5;
-  --color-foundation-colors-neutral-gray-duotone-3: #353539e5;
+  --color-foundation-colors-neutral-gray-duotone-3: #b1afbfe5;
   /* Pure white reference - use for maximum contrast against dark backgrounds and absolute light points */
-  --color-foundation-colors-neutral-black-00: #ffffff;
+  --color-foundation-colors-neutral-black-00: #000000;
   /* Lightest black tone - use for very subtle text, disabled states, and minimal emphasis elements */
-  --color-foundation-colors-neutral-black-50: #e6e6e6;
+  --color-foundation-colors-neutral-black-50: #010101;
   /* Very light black tone - use for subtle text, disabled states, and gentle contrast elements */
-  --color-foundation-colors-neutral-black-100: #cecece;
+  --color-foundation-colors-neutral-black-100: #020202;
   /* Light black tone - use for placeholder text, subtle elements, and soft contrast */
-  --color-foundation-colors-neutral-black-150: #b5b5b5;
+  --color-foundation-colors-neutral-black-150: #020202;
   /* Light-medium black tone - use for secondary text, icons, and balanced contrast elements */
-  --color-foundation-colors-neutral-black-200: #9c9c9c;
+  --color-foundation-colors-neutral-black-200: #030303;
   /* Medium-light black tone - use for tertiary text, subtle emphasis, and gentle contrast markers */
-  --color-foundation-colors-neutral-black-300: #6b6b6b;
+  --color-foundation-colors-neutral-black-300: #050505;
   /* Medium black tone - use for secondary text, balanced elements, and moderate emphasis */
-  --color-foundation-colors-neutral-black-400: #393939;
+  --color-foundation-colors-neutral-black-400: #060606;
   /* Main black color - use for primary text with AAA accessibility compliance (7:1 contrast ratio) and strong emphasis */
   --color-foundation-colors-neutral-black-500: #080808;
   /* Medium-dark black tone - use for emphasized text, strong elements, and clear definition */
-  --color-foundation-colors-neutral-black-600: #060606;
+  --color-foundation-colors-neutral-black-600: #393939;
   /* Dark black tone - use for high contrast text, important elements, and strong emphasis markers */
-  --color-foundation-colors-neutral-black-700: #050505;
+  --color-foundation-colors-neutral-black-700: #6b6b6b;
   /* Very dark black tone - use for maximum contrast text, emphasis, and strong definition */
-  --color-foundation-colors-neutral-black-800: #030303;
+  --color-foundation-colors-neutral-black-800: #9c9c9c;
   /* Extra dark black tone - use for absolute contrast needs and deep shadow effects */
-  --color-foundation-colors-neutral-black-850: #020202;
+  --color-foundation-colors-neutral-black-850: #b5b5b5;
   /* Darkest black tone - use for deepest contrast needs and maximum emphasis */
-  --color-foundation-colors-neutral-black-900: #020202;
+  --color-foundation-colors-neutral-black-900: #cecece;
   /* Near-absolute black - use for maximum depth, contrast, and deep environmental shadows */
-  --color-foundation-colors-neutral-black-950: #010101;
+  --color-foundation-colors-neutral-black-950: #e6e6e6;
   /* Pure black - use for absolute maximum contrast, depth, and environmental definition */
-  --color-foundation-colors-neutral-black-1000: #000000;
+  --color-foundation-colors-neutral-black-1000: #ffffff;
   /* Lightest success color - use for success backgrounds, gentle positive feedback, safe zone backgrounds, and comfort areas */
-  --color-foundation-colors-semantic-success-50: #eaf9f2;
+  --color-foundation-colors-semantic-success-50: #04130d;
   /* Very light success color - use for success alert backgrounds, support circle backgrounds, and positive environmental tones */
-  --color-foundation-colors-semantic-success-100: #d5f2e6;
+  --color-foundation-colors-semantic-success-100: #09261a;
   /* Light success color - use for subtle success emphasis and positive area definition */
-  --color-foundation-colors-semantic-success-150: #c0ecd9;
+  --color-foundation-colors-semantic-success-150: #0d3a27;
   /* Light-medium success color - use for success borders, accents, first-time friendly indicators, and positive highlights */
-  --color-foundation-colors-semantic-success-200: #abe6cd;
+  --color-foundation-colors-semantic-success-200: #124d34;
   /* Medium-light success color - use for success duotone effects, ally indicators, safety rule accents, and positive interaction markers */
-  --color-foundation-colors-semantic-success-300: #80d9b4;
+  --color-foundation-colors-semantic-success-300: #1a734e;
   /* Medium success color - use for success interactive states, positive feedback, and trust indicators */
-  --color-foundation-colors-semantic-success-400: #56cd9b;
+  --color-foundation-colors-semantic-success-400: #239a68;
   /* Main success color - use for success actions, positive feedback, trust markers, and safety actions */
   --color-foundation-colors-semantic-success-500: #2cc082;
   /* Medium-dark success color - use for success text, icons, and strong positive emphasis */
-  --color-foundation-colors-semantic-success-600: #239a68;
+  --color-foundation-colors-semantic-success-600: #56cd9b;
   /* Dark success color - use for success text on light backgrounds and strong trust markers */
-  --color-foundation-colors-semantic-success-700: #1a734e;
+  --color-foundation-colors-semantic-success-700: #80d9b4;
   /* Very dark success color - use for high contrast success text and maximum positive emphasis */
-  --color-foundation-colors-semantic-success-800: #124d34;
+  --color-foundation-colors-semantic-success-800: #abe6cd;
   /* Extra dark success color - use for maximum success contrast and deep positive shadows */
-  --color-foundation-colors-semantic-success-850: #0d3a27;
+  --color-foundation-colors-semantic-success-850: #c0ecd9;
   /* Darkest success color - use for maximum contrast success text and absolute positive emphasis */
-  --color-foundation-colors-semantic-success-900: #09261a;
+  --color-foundation-colors-semantic-success-900: #d5f2e6;
   /* Deepest success color - use for absolute maximum success contrast and deep positive definition */
-  --color-foundation-colors-semantic-success-950: #04130d;
+  --color-foundation-colors-semantic-success-950: #eaf9f2;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
-  --color-foundation-colors-semantic-success-duotone: #2cc08233;
+  --color-foundation-colors-semantic-success-duotone: #0d3a2733;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
   --color-foundation-colors-semantic-success-duotone-2: #1a734e33;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
-  --color-foundation-colors-semantic-success-duotone-3: #0d3a2733;
+  --color-foundation-colors-semantic-success-duotone-3: #2cc08233;
   /* Lightest warning color - use for warning backgrounds, gentle caution feedback, and attention areas */
-  --color-foundation-colors-semantic-warning-50: #fffbec;
+  --color-foundation-colors-semantic-warning-50: #191507;
   /* Very light warning color - use for warning alert backgrounds and cautionary area ambiance */
-  --color-foundation-colors-semantic-warning-100: #fef7d9;
+  --color-foundation-colors-semantic-warning-100: #322b0d;
   /* Light warning color - use for subtle warning emphasis and cautionary area definition */
-  --color-foundation-colors-semantic-warning-150: #fef2c6;
+  --color-foundation-colors-semantic-warning-150: #4c4014;
   /* Light-medium warning color - use for warning borders, accents, and cautionary highlights */
-  --color-foundation-colors-semantic-warning-200: #feeeb3;
+  --color-foundation-colors-semantic-warning-200: #65551a;
   /* Medium-light warning color - use for warning duotone effects, cactus object colors, warning accents, and attention markers */
-  --color-foundation-colors-semantic-warning-300: #fde68d;
+  --color-foundation-colors-semantic-warning-300: #978027;
   /* Medium warning color - use for warning interactive states and attention-required elements */
-  --color-foundation-colors-semantic-warning-400: #fddd67;
+  --color-foundation-colors-semantic-warning-400: #caaa34;
   /* Main warning color - use for warning actions, caution feedback, and attention markers */
   --color-foundation-colors-semantic-warning-500: #fcd541;
   /* Medium-dark warning color - use for warning text, icons, and strong cautionary emphasis */
-  --color-foundation-colors-semantic-warning-600: #caaa34;
+  --color-foundation-colors-semantic-warning-600: #fddd67;
   /* Dark warning color - use for warning text on light backgrounds and strong attention markers */
-  --color-foundation-colors-semantic-warning-700: #978027;
+  --color-foundation-colors-semantic-warning-700: #fde68d;
   /* Very dark warning color - use for high contrast warning text and maximum cautionary emphasis */
-  --color-foundation-colors-semantic-warning-800: #65551a;
+  --color-foundation-colors-semantic-warning-800: #feeeb3;
   /* Extra dark warning color - use for maximum warning contrast and deep cautionary shadows */
-  --color-foundation-colors-semantic-warning-850: #4c4014;
+  --color-foundation-colors-semantic-warning-850: #fef2c6;
   /* Darkest warning color - use for maximum contrast warning text and absolute cautionary emphasis */
-  --color-foundation-colors-semantic-warning-900: #322b0d;
+  --color-foundation-colors-semantic-warning-900: #fef7d9;
   /* Deepest warning color - use for absolute maximum warning contrast and deep cautionary definition */
-  --color-foundation-colors-semantic-warning-950: #191507;
+  --color-foundation-colors-semantic-warning-950: #fffbec;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
-  --color-foundation-colors-semantic-warning-duotone: #fcd54199;
+  --color-foundation-colors-semantic-warning-duotone: #4c401499;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
   --color-foundation-colors-semantic-warning-duotone-2: #978027b2;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
-  --color-foundation-colors-semantic-warning-duotone-3: #4c401499;
+  --color-foundation-colors-semantic-warning-duotone-3: #fcd54199;
   /* Lightest danger color - use for error backgrounds, gentle negative feedback, and critical area ambiance */
-  --color-foundation-colors-semantic-danger-50: #fff1ef;
+  --color-foundation-colors-semantic-danger-50: #190c0a;
   /* Very light danger color - use for error alert backgrounds and critical area definition */
-  --color-foundation-colors-semantic-danger-100: #ffe4df;
+  --color-foundation-colors-semantic-danger-100: #331813;
   /* Light danger color - use for subtle error emphasis and critical area boundaries */
-  --color-foundation-colors-semantic-danger-150: #ffd6cf;
+  --color-foundation-colors-semantic-danger-150: #4c241d;
   /* Light-medium danger color - use for error borders, accents, and critical highlights */
-  --color-foundation-colors-semantic-danger-200: #ffc9bf;
+  --color-foundation-colors-semantic-danger-200: #663026;
   /* Medium-light danger color - use for error duotone effects, alert borders, and critical markers */
-  --color-foundation-colors-semantic-danger-300: #fead9f;
+  --color-foundation-colors-semantic-danger-300: #984739;
   /* Medium danger color - use for error interactive states and critical attention elements */
-  --color-foundation-colors-semantic-danger-400: #fe927f;
+  --color-foundation-colors-semantic-danger-400: #cb5f4c;
   /* Main danger color - use for error actions, critical feedback, and danger markers */
   --color-foundation-colors-semantic-danger-500: #fe775f;
   /* Medium-dark danger color - use for error text, icons, and strong critical emphasis */
-  --color-foundation-colors-semantic-danger-600: #cb5f4c;
+  --color-foundation-colors-semantic-danger-600: #fe927f;
   /* Dark danger color - use for error text on light backgrounds and strong danger markers */
-  --color-foundation-colors-semantic-danger-700: #984739;
+  --color-foundation-colors-semantic-danger-700: #fead9f;
   /* Very dark danger color - use for high contrast error text and maximum critical emphasis */
-  --color-foundation-colors-semantic-danger-800: #663026;
+  --color-foundation-colors-semantic-danger-800: #ffc9bf;
   /* Extra dark danger color - use for maximum error contrast and deep critical shadows */
-  --color-foundation-colors-semantic-danger-850: #4c241d;
+  --color-foundation-colors-semantic-danger-850: #ffd6cf;
   /* Darkest danger color - use for maximum contrast error text and absolute critical emphasis */
-  --color-foundation-colors-semantic-danger-900: #331813;
+  --color-foundation-colors-semantic-danger-900: #ffe4df;
   /* Deepest danger color - use for absolute maximum error contrast and deep critical definition */
-  --color-foundation-colors-semantic-danger-950: #190c0a;
+  --color-foundation-colors-semantic-danger-950: #fff1ef;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
-  --color-foundation-colors-semantic-danger-duotone: #fe775f33;
+  --color-foundation-colors-semantic-danger-duotone: #4c241d33;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
   --color-foundation-colors-semantic-danger-duotone-2: #98473933;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
-  --color-foundation-colors-semantic-danger-duotone-3: #4c241d33;
+  --color-foundation-colors-semantic-danger-duotone-3: #fe775f33;
   /* Lightest info color - use for info backgrounds, gentle informational feedback, and helpful area ambiance */
-  --color-foundation-colors-semantic-info-50: #eef8fe;
+  --color-foundation-colors-semantic-info-50: #091219;
   /* Very light info color - use for info alert backgrounds, notification backgrounds, and helpful area definition */
-  --color-foundation-colors-semantic-info-100: #ddf0fe;
+  --color-foundation-colors-semantic-info-100: #112432;
   /* Light info color - use for subtle info emphasis and helpful area boundaries */
-  --color-foundation-colors-semantic-info-150: #cde9fd;
+  --color-foundation-colors-semantic-info-150: #1a374b;
   /* Light-medium info color - use for info borders, accents, peer support indicators, and helpful highlights */
-  --color-foundation-colors-semantic-info-200: #bce2fd;
+  --color-foundation-colors-semantic-info-200: #234964;
   /* Medium-light info color - use for info duotone effects, borders, accents, and helpful markers */
-  --color-foundation-colors-semantic-info-300: #9ad3fc;
+  --color-foundation-colors-semantic-info-300: #346d96;
   /* Medium info color - use for info interactive states and helpful attention elements */
-  --color-foundation-colors-semantic-info-400: #79c5fb;
+  --color-foundation-colors-semantic-info-400: #4692c8;
   /* Main info color - use for info actions, informational feedback, and helpful markers */
   --color-foundation-colors-semantic-info-500: #57b6fa;
   /* Medium-dark info color - use for info text, icons, and strong helpful emphasis */
-  --color-foundation-colors-semantic-info-600: #4692c8;
+  --color-foundation-colors-semantic-info-600: #79c5fb;
   /* Dark info color - use for info text on light backgrounds and strong helpful markers */
-  --color-foundation-colors-semantic-info-700: #346d96;
+  --color-foundation-colors-semantic-info-700: #9ad3fc;
   /* Very dark info color - use for high contrast info text and maximum helpful emphasis */
-  --color-foundation-colors-semantic-info-800: #234964;
+  --color-foundation-colors-semantic-info-800: #bce2fd;
   /* Extra dark info color - use for maximum info contrast and deep helpful shadows */
-  --color-foundation-colors-semantic-info-850: #1a374b;
+  --color-foundation-colors-semantic-info-850: #cde9fd;
   /* Darkest info color - use for maximum contrast info text and absolute helpful emphasis */
-  --color-foundation-colors-semantic-info-900: #112432;
+  --color-foundation-colors-semantic-info-900: #ddf0fe;
   /* Deepest info color - use for absolute maximum info contrast and deep helpful definition */
-  --color-foundation-colors-semantic-info-950: #091219;
+  --color-foundation-colors-semantic-info-950: #eef8fe;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
-  --color-foundation-colors-semantic-info-duotone: #57b6fae5;
+  --color-foundation-colors-semantic-info-duotone: #1a374bb2;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
   --color-foundation-colors-semantic-info-duotone-2: #346d96cc;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
-  --color-foundation-colors-semantic-info-duotone-3: #1a374bb2;
+  --color-foundation-colors-semantic-info-duotone-3: #57b6fae5;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
-  --color-foundation-colors-brand-primary-duotone: #9d87ff33;
+  --color-foundation-colors-brand-primary-duotone: #2f294d33;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
-  --color-foundation-colors-brand-primary-duotone-2: #5e519933;
+  --color-foundation-colors-brand-primary-duotone-2: #2f294d33;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
-  --color-foundation-colors-brand-primary-duotone-3: #2f294d33;
+  --color-foundation-colors-brand-primary-duotone-3: #5e519933;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
-  --color-foundation-colors-brand-primary-duotone-4: #2f294da8;
+  --color-foundation-colors-brand-primary-duotone-4: #9d87ffa8;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
-  --color-foundation-colors-brand-professional-duotone: #ffa25333;
+  --color-foundation-colors-brand-professional-duotone: #4d311933;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
   --color-foundation-colors-brand-professional-duotone-2: #99613233;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
-  --color-foundation-colors-brand-professional-duotone-3: #4d311933;
+  --color-foundation-colors-brand-professional-duotone-3: #ffa25333;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
-  --color-foundation-colors-brand-personal-duotone: #e9ff8733;
+  --color-foundation-colors-brand-personal-duotone: #8c995133;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
-  --color-foundation-colors-brand-personal-duotone-2: #8c995133;
+  --color-foundation-colors-brand-personal-duotone-2: #e9ff8733;
   /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
   --color-foundation-colors-brand-personal-duotone-3: #464d2933;
   /* Default icon fill color - secondary text color for standard icons */
