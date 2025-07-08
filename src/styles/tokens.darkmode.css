@@ -1,0 +1,690 @@
+/**
+ * This file was generated automatically by Supernova.io and should not be changed manually.
+ * To modify the format or content of this file, please contact your design system team. 
+ */
+
+.theme-darkmode {
+  /* Poppins font - a modern, friendly font for headings, titles, zone names, and brand-focused text that adds personality */
+  --string-foundation-typography-font-family-heading: "Poppins";
+  /* Atkinson Hyperlegible font - specially designed for maximum accessibility and readability, use for body text, UI elements, labels, and interface text */
+  --string-foundation-typography-font-family-body: "Atkinson Hyperlegible";
+  /* JetBrains Mono font - a monospace font for code, technical content, data display, and when you need fixed-width characters */
+  --string-foundation-typography-font-family-code: "JetBrains Mono";
+  /* Light font weight (300) - use sparingly for large display text or decorative elements where you want a delicate, elegant appearance */
+  --dimension-foundation-typography-font-weight-light: 300px;
+  /* Regular font weight (400) - the standard weight for body text, paragraphs, descriptions, and most readable content */
+  --dimension-foundation-typography-font-weight-regular: 400px;
+  /* Medium font weight (500) - use for labels, important text, and when you need slight emphasis without full boldness */
+  --dimension-foundation-typography-font-weight-medium: 500px;
+  /* Semibold font weight (600) - use for subheadings, important labels, and when text needs noticeable emphasis but not maximum weight */
+  --dimension-foundation-typography-font-weight-semibold: 600px;
+  /* Bold font weight (700) - use for headings (H1-H3), important callouts, and when you need strong emphasis and clear visual hierarchy */
+  --dimension-foundation-typography-font-weight-bold: 700px;
+  /* Extra bold font weight (800) - use for large display text, brand statements, hero headings, and when you need maximum visual impact */
+  --dimension-foundation-typography-font-weight-extrabold: 800px;
+  /* Black font weight (900) - the heaviest weight, use for hero text, dramatic emphasis, and maximum impact display text */
+  --dimension-foundation-typography-font-weight-black: 900px;
+  /* Extra small mobile font (6px) - use for fine print, micro-labels, and space-constrained text on small screens */
+  --dimension-foundation-typography-font-size-mobile-xs: 7px;
+  /* Small mobile font (10px) - use for captions, small labels, and secondary text on mobile devices */
+  --dimension-foundation-typography-font-size-mobile-sm: 12px;
+  /* Base mobile font (16px) - the standard size for body text, paragraphs, and main content on mobile devices */
+  --dimension-foundation-typography-font-size-mobile-base: 19px;
+  /* Large mobile font (26px) - use for emphasized content, large body text, and important callouts on mobile */
+  --dimension-foundation-typography-font-size-mobile-lg: 31px;
+  /* Extra large mobile font (42px) - use for small headings (H4-H6) and prominent text elements on mobile */
+  --dimension-foundation-typography-font-size-mobile-xl: 50px;
+  /* 2X large mobile font (68px) - use for medium headings (H2-H3) and section headings on mobile */
+  --dimension-foundation-typography-font-size-mobile-2xl: 80px;
+  /* 3X large mobile font (110px) - use for major headings (H1) and primary page titles on mobile */
+  --dimension-foundation-typography-font-size-mobile-3xl: 130px;
+  /* 4X large mobile font (177px) - use for hero headings, brand statements, and maximum impact text on mobile */
+  --dimension-foundation-typography-font-size-mobile-4xl: 211px;
+  /* Extra small desktop font (10px) - use for fine print, micro-labels, and space-constrained text on large screens */
+  --dimension-foundation-typography-font-size-desktop-xs: 9px;
+  /* Small desktop font (16px) - use for captions, small labels, and secondary text on desktop */
+  --dimension-foundation-typography-font-size-desktop-sm: 14px;
+  /* Base desktop font (16px) - the standard size for body text, paragraphs, and main content on desktop */
+  --dimension-foundation-typography-font-size-desktop-base: 23px;
+  /* Large desktop font (26px) - use for emphasized content, large body text, and important callouts on desktop */
+  --dimension-foundation-typography-font-size-desktop-lg: 37px;
+  /* Extra large desktop font (42px) - use for small headings (H4-H6) and prominent text elements on desktop */
+  --dimension-foundation-typography-font-size-desktop-xl: 60px;
+  /* 2X large desktop font (68px) - use for medium headings (H2-H3) and section headings on desktop */
+  --dimension-foundation-typography-font-size-desktop-2xl: 97px;
+  /* 3X large desktop font (110px) - use for major headings (H1) and primary page titles on desktop */
+  --dimension-foundation-typography-font-size-desktop-3xl: 158px;
+  /* 4X large desktop font (177px) - use for hero headings, brand statements, and maximum impact text on desktop */
+  --dimension-foundation-typography-font-size-desktop-4xl: 255px;
+  /* 5X large desktop font (287px) - use for display text, hero graphics, and dramatic visual impact on desktop */
+  --dimension-foundation-typography-font-size-desktop-5xl: 413px;
+  /* 6X large desktop font (464px) - use for maximum impact text, hero displays, and dramatic brand statements on desktop */
+  --dimension-foundation-typography-font-size-desktop-6xl: 668px;
+  /* Extra small mobile line height (8px = 140% of 6px font) - comfortable spacing for very small mobile text */
+  --dimension-foundation-typography-line-height-mobile-xs: 9.8px;
+  /* Small mobile line height (14px = 140% of 10px font) - comfortable spacing for small mobile text */
+  --dimension-foundation-typography-line-height-mobile-sm: 16.8px;
+  /* Base mobile line height (22px = 140% of 16px font) - comfortable reading for mobile body text */
+  --dimension-foundation-typography-line-height-mobile-base: 26.6px;
+  /* Large mobile line height (36px = 140% of 26px font) - comfortable spacing for emphasized mobile content */
+  --dimension-foundation-typography-line-height-mobile-lg: 43.4px;
+  /* Extra large mobile line height (59px = 140% of 42px font) - balanced spacing for mobile headings */
+  --dimension-foundation-typography-line-height-mobile-xl: 70px;
+  /* 2X large mobile line height (95px = 140% of 68px font) - comfortable spacing for medium mobile headings */
+  --dimension-foundation-typography-line-height-mobile-2xl: 96px;
+  /* 3X large mobile line height (154px = 140% of 110px font) - balanced spacing for major mobile headings */
+  --dimension-foundation-typography-line-height-mobile-3xl: 156px;
+  /* 4X large mobile line height (248px = 140% of 177px font) - dramatic spacing for hero mobile text */
+  --dimension-foundation-typography-line-height-mobile-4xl: 211px;
+  /* Extra small desktop line height (14px = 140% of 10px font) - comfortable spacing for small desktop text */
+  --dimension-foundation-typography-line-height-desktop-xs: 12.6px;
+  /* Small desktop line height (22px = 140% of 16px font) - comfortable spacing for desktop captions */
+  --dimension-foundation-typography-line-height-desktop-sm: 19.6px;
+  /* Base desktop line height (22px = 140% of 16px font) - optimal spacing for desktop body text reading */
+  --dimension-foundation-typography-line-height-desktop-base: 32.2px;
+  /* Large desktop line height (36px = 140% of 26px font) - comfortable spacing for emphasized desktop content */
+  --dimension-foundation-typography-line-height-desktop-lg: 51.8px;
+  /* Extra large desktop line height (59px = 140% of 42px font) - balanced spacing for desktop headings */
+  --dimension-foundation-typography-line-height-desktop-xl: 84px;
+  /* 2X large desktop line height (95px = 140% of 68px font) - comfortable spacing for medium desktop headings */
+  --dimension-foundation-typography-line-height-desktop-2xl: 135.8px;
+  /* 3X large desktop line height (154px = 140% of 110px font) - balanced spacing for major desktop headings */
+  --dimension-foundation-typography-line-height-desktop-3xl: 221.2px;
+  /* 4X large desktop line height (248px = 140% of 177px font) - dramatic spacing for hero desktop text */
+  --dimension-foundation-typography-line-height-desktop-4xl: 306px;
+  /* 5X large desktop line height (402px = 140% of 287px font) - maximum spacing for display desktop text */
+  --dimension-foundation-typography-line-height-desktop-5xl: 495.6px;
+  /* 6X large desktop line height (650px = 140% of 464px font) - dramatic spacing for maximum impact desktop text */
+  --dimension-foundation-typography-line-height-desktop-6xl: 801.6px;
+  /* Tight letter spacing (-0.4px) - use for large headings and display text where you want characters closer together for visual cohesion */
+  --dimension-foundation-typography-letter-spacing-tight: -0.4px;
+  /* Normal letter spacing (0px) - the default spacing for standard text, body content, and most readable text */
+  --dimension-foundation-typography-letter-spacing-normal: 0px;
+  /* Wide letter spacing (0.4px) - use for emphasis, improved legibility, labels, and buttons where you want text to breathe */
+  --dimension-foundation-typography-letter-spacing-wide: 0.4px;
+  /* Wider letter spacing (0.8px) - use for buttons, labels, and text that needs strong emphasis and distinction */
+  --dimension-foundation-typography-letter-spacing-wider: 0.8px;
+  /* Widest letter spacing (1.6px) - use for maximum emphasis, branding moments, and when you want text to feel premium */
+  --dimension-foundation-typography-letter-spacing-widest: 1.6px;
+  /* Tight mobile paragraph spacing (8px) - use for compact content blocks where space is limited on mobile */
+  --dimension-foundation-typography-paragraph-spacing-mobile-tight: 7px;
+  /* Normal mobile paragraph spacing (12px) - standard separation between paragraphs on mobile for comfortable reading */
+  --dimension-foundation-typography-paragraph-spacing-mobile-normal: 12px;
+  /* Relaxed mobile paragraph spacing (16px) - comfortable reading flow with more breathing room between paragraphs on mobile */
+  --dimension-foundation-typography-paragraph-spacing-mobile-relaxed: 19px;
+  /* Loose mobile paragraph spacing (20px) - maximum readability with generous space between paragraphs on mobile */
+  --dimension-foundation-typography-paragraph-spacing-mobile-loose: 31px;
+  /* Tight desktop paragraph spacing (12px) - use for compact content blocks where space is limited on desktop */
+  --dimension-foundation-typography-paragraph-spacing-desktop-tight: 10px;
+  /* Normal desktop paragraph spacing (16px) - standard separation between paragraphs on desktop for comfortable reading */
+  --dimension-foundation-typography-paragraph-spacing-desktop-normal: 16px;
+  /* Relaxed desktop paragraph spacing (24px) - comfortable reading flow with more breathing room between paragraphs on desktop */
+  --dimension-foundation-typography-paragraph-spacing-desktop-relaxed: 26px;
+  /* Loose desktop paragraph spacing (32px) - maximum readability with generous space between paragraphs on desktop */
+  --dimension-foundation-typography-paragraph-spacing-desktop-loose: 42px;
+  /* Extra small spacing (4px) - golden ratio step 1, use between closely related elements like icon and text, or for tight layouts */
+  --dimension-foundation-spacing-xs: 4px;
+  /* Extra small sizing (10px) - use for small icons, indicators, micro-elements, and when space is extremely constrained */
+  --dimension-foundation-sizing-xs: 10px;
+  /* Small sizing (16px) - use for small buttons, compact icons, and compact UI elements that still need to be easily interactive */
+  --dimension-foundation-sizing-sm: 16px;
+  /* Medium sizing (26px) - use for default buttons, standard icons, and most UI components for comfortable interaction */
+  --dimension-foundation-sizing-md: 26px;
+  /* Large sizing (42px) - use for large buttons, featured icons, important UI elements that need extra prominence */
+  --dimension-foundation-sizing-lg: 42px;
+  /* Extra large sizing (68px) - use for hero buttons, large icons, featured components that need maximum prominence */
+  --dimension-foundation-sizing-xl: 68px;
+  /* 2X large sizing (110px) - use for hero elements, floating action buttons, special components that need visual impact */
+  --dimension-foundation-sizing-2xl: 110px;
+  /* 3X large sizing (177px) - use for display elements, large avatars, hero graphics, and maximum visual presence */
+  --dimension-foundation-sizing-3xl: 177px;
+  /* 4X large sizing (287px) - use for maximum impact elements, hero graphics, and dramatic visual statements */
+  --dimension-foundation-sizing-4xl: 287px;
+  /* 5X large sizing (464px) - use for hero graphics, maximum display elements, and dramatic visual impact */
+  --dimension-foundation-sizing-5xl: 464px;
+  /* 5X large sizing (464px) - use for hero graphics, maximum display elements, and dramatic visual impact */
+  --dimension-foundation-sizing-6xl: 752px;
+  /* 5X large sizing (464px) - use for hero graphics, maximum display elements, and dramatic visual impact */
+  --dimension-foundation-sizing-7xl: 1216px;
+  /* Small spacing (6px) - golden ratio step 2, use within components and between related elements that should feel grouped together */
+  --dimension-foundation-spacing-sm: 6px;
+  /* Medium spacing (10px) - golden ratio step 3, use between form elements, list items, and standard components for balanced separation */
+  --dimension-foundation-spacing-md: 10px;
+  /* Large spacing (16px) - golden ratio step 4, use for section separation, between different content sections, and major UI areas */
+  --dimension-foundation-spacing-lg: 16px;
+  /* Extra large spacing (26px) - golden ratio step 5, use for major separations between page sections and content blocks */
+  --dimension-foundation-spacing-xl: 26px;
+  /* 2X large spacing (42px) - golden ratio step 6, use for page-level separation, major section breaks, and hero spacing */
+  --dimension-foundation-spacing-2xl: 42px;
+  /* 3X large spacing (68px) - golden ratio step 7, use for dramatic separation, hero sections, and special layouts */
+  --dimension-foundation-spacing-3xl: 68px;
+  /* 4X large spacing (110px) - golden ratio step 8, use sparingly for maximum separation and luxury spacing */
+  --dimension-foundation-spacing-4xl: 110px;
+  /* 5X large spacing (177px) - golden ratio step 9, use for dramatic layouts and maximum visual impact */
+  --dimension-foundation-spacing-5xl: 177px;
+  /* 6X large spacing (287px) - golden ratio step 10, use for hero sections and maximum dramatic effect */
+  --dimension-foundation-spacing-6xl: 287px;
+  /* No border radius (0px) - use for sharp, geometric edges when you want a technical, precise aesthetic */
+  --dimension-foundation-corner-radius-none: 0px;
+  /* Extra small border radius (4px) - use for subtle rounding on small elements like badges, tags, and minor UI components */
+  --dimension-foundation-corner-radius-xs: 4px;
+  /* Small border radius (6px) - use for gentle rounding on buttons, inputs, and small components for a friendly appearance */
+  --dimension-foundation-corner-radius-sm: 6px;
+  /* Medium border radius (10px) - use for standard rounding on cards, containers, and medium-sized components */
+  --dimension-foundation-corner-radius-md: 10px;
+  /* Large border radius (16px) - use for prominent rounding on large cards, modals, and featured components */
+  --dimension-foundation-corner-radius-lg: 16px;
+  /* Extra large border radius (26px) - use for dramatic rounding on hero elements and brand-focused components */
+  --dimension-foundation-corner-radius-xl: 26px;
+  /* 2X large border radius (42px) - use for maximum rounding on special design elements and unique components */
+  --dimension-foundation-corner-radius-2xl: 42px;
+  /* 3X large border radius (68px) - use for extreme rounding effects and dramatic design statements */
+  --dimension-foundation-corner-radius-3xl: 68px;
+  /* Full border radius (9999px) - use for perfect circles (avatars, circular buttons) and pill shapes (badges, tags) */
+  --dimension-foundation-corner-radius-full: 9999px;
+  /* No border (0px) - use when you don't want any border or outline */
+  --dimension-foundation-stroke-weight-none: 0px;
+  /* Thin border (1px) - use for subtle definition, gentle separation, and most standard borders */
+  --dimension-foundation-stroke-weight-thin: 1px;
+  /* Medium border (2px) - use for standard definition, focus states, and moderate emphasis */
+  --dimension-foundation-stroke-weight-medium: 2px;
+  /* Thick border (4px) - use for strong emphasis, important elements, and when you need clear definition */
+  --dimension-foundation-stroke-weight-thick: 4px;
+  /* Extra thick border (8px) - use for maximum emphasis, hero elements, and dramatic visual statements */
+  --dimension-foundation-stroke-weight-extra-thick: 10px;
+  /* Complete transparency (0%) - use for hidden elements and transparent overlays */
+  --dimension-foundation-opacity-0: 0px;
+  /* 5% opacity - use for very subtle effects and barely visible overlays */
+  --dimension-foundation-opacity-5: 5px;
+  /* 10% opacity - use for subtle overlays and minimal emphasis */
+  --dimension-foundation-opacity-10: 10px;
+  /* 20% opacity - use for light overlays and subtle backgrounds */
+  --dimension-foundation-opacity-20: 20px;
+  /* 25% opacity - use for quarter transparency and gentle overlays */
+  --dimension-foundation-opacity-25: 25px;
+  /* 30% opacity - use for duotone secondary layers and subtle emphasis */
+  --dimension-foundation-opacity-30: 30px;
+  /* 40% opacity - use for moderate transparency and overlays */
+  --dimension-foundation-opacity-40: 40px;
+  /* 50% opacity - use for disabled states and moderate overlays */
+  --dimension-foundation-opacity-50: 50px;
+  /* 60% opacity - use for moderate emphasis and backgrounds */
+  --dimension-foundation-opacity-60: 60px;
+  /* 70% opacity - use for strong overlays and backgrounds */
+  --dimension-foundation-opacity-70: 70px;
+  /* 75% opacity - use for de-emphasized elements and strong overlays */
+  --dimension-foundation-opacity-75: 75px;
+  /* 80% opacity - use for modal backgrounds and strong overlays */
+  --dimension-foundation-opacity-80: 80px;
+  /* 4 columns for mobile grid layout - optimal for small screens */
+  --dimension-foundation-breakpoints-columns-mobile: 4px;
+  /* 90% opacity - use for nearly opaque elements and strong backgrounds */
+  --dimension-foundation-opacity-90: 90px;
+  /* 8 columns for tablet grid layout - balanced for medium screens */
+  --dimension-foundation-breakpoints-columns-tablet: 8px;
+  /* 95% opacity - use for almost full visibility and strong emphasis */
+  --dimension-foundation-opacity-95: 95px;
+  /* 12 columns for desktop grid layout - flexible for large screens */
+  --dimension-foundation-breakpoints-columns-desktop: 12px;
+  /* Full opacity (100%) - use for all normal, interactive, and prominent elements */
+  --dimension-foundation-opacity-100: 100px;
+  /* 16 columns for wide desktop grid layout - maximum flexibility for ultra-wide screens */
+  --dimension-foundation-breakpoints-columns-wide: 16px;
+  /* Mobile breakpoint (320px) - smallest screen size, use for mobile phones and small devices */
+  --dimension-foundation-breakpoints-mobile-sm: 320px;
+  /* Instagram square post size (1080px) - use for both width and height of square posts */
+  --dimension-foundation-social-media-dimensions-instagram-post: 1080px;
+  /* A4 page width (595px at 72dpi = 210mm) - use for A4 document width and standard international documents */
+  --dimension-foundation-print-page-sizes-a4-width: 595px;
+  /* A4 page height (842px at 72dpi = 297mm) - use for A4 document height and standard international documents */
+  --dimension-foundation-print-page-sizes-a4-height: 842px;
+  /* A3 page width (842px at 72dpi = 297mm) - use for A3 poster width and large format documents */
+  --dimension-foundation-print-page-sizes-a3-width: 842px;
+  /* A3 page height (1191px at 72dpi = 420mm) - use for A3 poster height and large format documents */
+  --dimension-foundation-print-page-sizes-a3-height: 1191px;
+  /* A5 page width (420px at 72dpi = 148mm) - use for A5 booklets and small documents */
+  --dimension-foundation-print-page-sizes-a5-width: 420px;
+  /* A5 page height (595px at 72dpi = 210mm) - use for A5 booklets and small documents */
+  --dimension-foundation-print-page-sizes-a5-height: 595px;
+  /* US Letter page width (612px at 72dpi = 8.5in) - use for US standard document width */
+  --dimension-foundation-print-page-sizes-letter-width: 612px;
+  /* US Letter page height (792px at 72dpi = 11in) - use for US standard document height */
+  --dimension-foundation-print-page-sizes-letter-height: 792px;
+  /* US Legal page width (612px at 72dpi = 8.5in) - use for US legal document width */
+  --dimension-foundation-print-page-sizes-legal-width: 612px;
+  /* US Legal page height (1008px at 72dpi = 14in) - use for US legal document height */
+  --dimension-foundation-print-page-sizes-legal-height: 1008px;
+  /* Tabloid page width (792px at 72dpi = 11in) - use for tabloid size documents */
+  --dimension-foundation-print-page-sizes-tabloid-width: 792px;
+  /* Tabloid page height (1224px at 72dpi = 17in) - use for tabloid size documents */
+  --dimension-foundation-print-page-sizes-tabloid-height: 1224px;
+  /* Business card width (252px at 72dpi = 3.5in) - use for standard business card width */
+  --dimension-foundation-print-page-sizes-business-card-width: 252px;
+  /* Business card height (144px at 72dpi = 2in) - use for standard business card height */
+  --dimension-foundation-print-page-sizes-business-card-height: 144px;
+  /* Postcard width (432px at 72dpi = 6in) - use for standard postcard width */
+  --dimension-foundation-print-page-sizes-postcard-width: 432px;
+  /* Postcard height (288px at 72dpi = 4in) - use for standard postcard height */
+  --dimension-foundation-print-page-sizes-postcard-height: 288px;
+  /* Flyer width (612px at 72dpi = 8.5in) - use for standard flyer width */
+  --dimension-foundation-print-page-sizes-flyer-width: 612px;
+  /* Flyer height (792px at 72dpi = 11in) - use for standard flyer height */
+  --dimension-foundation-print-page-sizes-flyer-height: 792px;
+  /* Small poster width (1224px at 72dpi = 17in) - use for small poster width */
+  --dimension-foundation-print-page-sizes-poster-small-width: 1224px;
+  /* Small poster height (1584px at 72dpi = 22in) - use for small poster height */
+  --dimension-foundation-print-page-sizes-poster-small-height: 1584px;
+  /* Large poster width (1728px at 72dpi = 24in) - use for large poster width */
+  --dimension-foundation-print-page-sizes-poster-large-width: 1728px;
+  /* Large poster height (2592px at 72dpi = 36in) - use for large poster height */
+  --dimension-foundation-print-page-sizes-poster-large-height: 2592px;
+  /* Banner width (2592px at 72dpi = 36in) - use for event banner width */
+  --dimension-foundation-print-page-sizes-banner-width: 2592px;
+  /* Banner height (1728px at 72dpi = 24in) - use for event banner height */
+  --dimension-foundation-print-page-sizes-banner-height: 1728px;
+  /* Standard document margin (72px = 1in at 72dpi) - use for document margins and print safety areas */
+  --dimension-foundation-print-margins-document-margin: 72px;
+  /* Small document margin (36px = 0.5in at 72dpi) - use for compact document margins */
+  --dimension-foundation-print-margins-document-margin-small: 36px;
+  /* Large document margin (108px = 1.5in at 72dpi) - use for generous document margins */
+  --dimension-foundation-print-margins-document-margin-large: 108px;
+  /* Business card bleed margin (9px = 0.125in at 72dpi) - use for business card safety margins and bleed areas */
+  --dimension-foundation-print-margins-business-card-bleed: 9px;
+  /* Postcard bleed margin (9px = 0.125in at 72dpi) - use for postcard safety margins and bleed areas */
+  --dimension-foundation-print-margins-postcard-bleed: 9px;
+  /* Flyer bleed margin (18px = 0.25in at 72dpi) - use for flyer safety margins and bleed areas */
+  --dimension-foundation-print-margins-flyer-bleed: 18px;
+  /* Poster bleed margin (18px = 0.25in at 72dpi) - use for poster safety margins and large format print bleed areas */
+  --dimension-foundation-print-margins-poster-bleed: 18px;
+  /* Banner bleed margin (36px = 0.5in at 72dpi) - use for banner safety margins and large format bleed areas */
+  --dimension-foundation-print-margins-banner-bleed: 36px;
+  /* Web resolution (72 DPI) - use for digital display and screen-based content */
+  --dimension-foundation-print-resolution-web: 72px;
+  /* Standard print resolution (300 DPI) - use for high-quality print materials and professional printing */
+  --dimension-foundation-print-resolution-print-standard: 300px;
+  /* High print resolution (600 DPI) - use for premium print materials and fine detail printing */
+  --dimension-foundation-print-resolution-print-high: 600px;
+  /* Instagram story width (1080px) - use for story template width */
+  --dimension-foundation-social-media-dimensions-instagram-story-width: 1080px;
+  /* Instagram story height (1920px) - use for story template height */
+  --dimension-foundation-social-media-dimensions-instagram-story-height: 1920px;
+  /* Instagram reel width (1080px) - use for reel video width */
+  --dimension-foundation-social-media-dimensions-instagram-reel-width: 1080px;
+  /* Instagram reel height (1920px) - use for reel video height */
+  --dimension-foundation-social-media-dimensions-instagram-reel-height: 1920px;
+  /* Facebook post width (1200px) - use for Facebook feed post width */
+  --dimension-foundation-social-media-dimensions-facebook-post-width: 1200px;
+  /* Facebook post height (630px) - use for Facebook feed post height */
+  --dimension-foundation-social-media-dimensions-facebook-post-height: 630px;
+  /* Facebook cover width (1200px) - use for Facebook page cover width */
+  --dimension-foundation-social-media-dimensions-facebook-cover-width: 1200px;
+  /* Facebook cover height (445px) - use for Facebook page cover height */
+  --dimension-foundation-social-media-dimensions-facebook-cover-height: 445px;
+  /* Twitter post width (1200px) - use for Twitter image post width */
+  --dimension-foundation-social-media-dimensions-twitter-post-width: 1200px;
+  /* Twitter post height (675px) - use for Twitter image post height */
+  --dimension-foundation-social-media-dimensions-twitter-post-height: 675px;
+  /* Twitter header width (1500px) - use for Twitter profile header width */
+  --dimension-foundation-social-media-dimensions-twitter-header-width: 1500px;
+  /* Twitter header height (500px) - use for Twitter profile header height */
+  --dimension-foundation-social-media-dimensions-twitter-header-height: 500px;
+  /* LinkedIn post width (1200px) - use for LinkedIn feed post width */
+  --dimension-foundation-social-media-dimensions-linkedin-post-width: 1200px;
+  /* LinkedIn post height (627px) - use for LinkedIn feed post height */
+  --dimension-foundation-social-media-dimensions-linkedin-post-height: 627px;
+  /* LinkedIn banner width (1584px) - use for LinkedIn profile banner width */
+  --dimension-foundation-social-media-dimensions-linkedin-banner-width: 1584px;
+  /* LinkedIn banner height (396px) - use for LinkedIn profile banner height */
+  --dimension-foundation-social-media-dimensions-linkedin-banner-height: 396px;
+  /* YouTube thumbnail width (1280px) - use for video thumbnail width */
+  --dimension-foundation-social-media-dimensions-youtube-thumbnail-width: 1280px;
+  /* YouTube thumbnail height (720px) - use for video thumbnail height */
+  --dimension-foundation-social-media-dimensions-youtube-thumbnail-height: 720px;
+  /* YouTube channel art width (2560px) - use for channel banner width */
+  --dimension-foundation-social-media-dimensions-youtube-channel-art-width: 2560px;
+  /* YouTube channel art height (1440px) - use for channel banner height */
+  --dimension-foundation-social-media-dimensions-youtube-channel-art-height: 1440px;
+  /* Pinterest pin width (1000px) - use for Pinterest pin width */
+  --dimension-foundation-social-media-dimensions-pinterest-pin-width: 1000px;
+  /* Pinterest pin height (1500px) - use for Pinterest pin height */
+  --dimension-foundation-social-media-dimensions-pinterest-pin-height: 1500px;
+  /* TikTok video width (1080px) - use for TikTok video width */
+  --dimension-foundation-social-media-dimensions-tiktok-video-width: 1080px;
+  /* TikTok video height (1920px) - use for TikTok video height */
+  --dimension-foundation-social-media-dimensions-tiktok-video-height: 1920px;
+  /* Mobile breakpoint (320px) - smallest screen size, use for mobile phones and small devices */
+  --dimension-foundation-breakpoints-mobile: 360px;
+  /* Extra small grid gap (4px) - use for tight layouts and dense content */
+  --dimension-foundation-breakpoints-gap-xs: 4px;
+  /* Large mobile breakpoint (480px) - larger mobile phones and small tablets */
+  --dimension-foundation-breakpoints-mobile-lg: 600px;
+  /* Tablet breakpoint (768px) - tablet devices and medium screens */
+  --dimension-foundation-breakpoints-tablet: 768px;
+  /* Small grid gap (6px) - use for compact layouts and close content relationships */
+  --dimension-foundation-breakpoints-gap-sm: 6px;
+  /* Large tablet breakpoint (1024px) - large tablets and small laptops */
+  --dimension-foundation-breakpoints-tablet-lg: 1200px;
+  /* Medium grid gap (10px) - use for standard layouts and balanced content spacing */
+  --dimension-foundation-breakpoints-gap-md: 10px;
+  /* Desktop breakpoint (1440px) - desktop computers and large screens */
+  --dimension-foundation-breakpoints-desktop: 1440px;
+  /* Large grid gap (16px) - use for spacious layouts and clear content separation */
+  --dimension-foundation-breakpoints-gap-lg: 16px;
+  /* Extra large grid gap (26px) - use for dramatic layouts and premium spacing */
+  --dimension-foundation-breakpoints-gap-xl: 26px;
+  /* Large desktop breakpoint (1920px) - large desktop monitors */
+  --dimension-foundation-breakpoints-desktop-lg: 1920px;
+  /* 2X large grid gap (42px) - use for maximum spacing and luxury layouts */
+  --dimension-foundation-breakpoints-gap-2xl: 42px;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-brand-primary-50: #100e1a;
+  /* Very light purple brand color - use for hover states, light backgrounds, and gentle zone transitions */
+  --color-foundation-colors-brand-primary-100: #1f1b33;
+  /* Light purple brand color - use for subtle emphasis, light overlays, and gentle area definition */
+  --color-foundation-colors-brand-primary-150: #2f294d;
+  /* Light-medium purple brand color - use for borders, secondary elements, and soft interactive highlights */
+  --color-foundation-colors-brand-primary-200: #3f3666;
+  /* Medium-light purple brand color - use for duotone secondary layers, avatar status indicators, and zone accents */
+  --color-foundation-colors-brand-primary-300: #5e5199;
+  /* Medium purple brand color - use for interactive states, emphasis, user interaction glows, and zone highlights */
+  --color-foundation-colors-brand-primary-400: #7e6ccc;
+  /* Main purple brand color - use for primary actions, brand identity, zone identification, and primary virtual elements */
+  --color-foundation-colors-brand-primary-500: #9d87ff;
+  /* Medium-dark purple brand color - use for hover states, emphasis, active zone states, and user presence indicators */
+  --color-foundation-colors-brand-primary-600: #b19fff;
+  /* Dark purple brand color - use for pressed states, strong emphasis, mentor badges, and high-priority elements */
+  --color-foundation-colors-brand-primary-700: #c4b7ff;
+  /* Very dark purple brand color - use for high contrast, strong emphasis, and maximum contrast virtual elements */
+  --color-foundation-colors-brand-primary-800: #d8cfff;
+  /* Extra dark purple brand color - use for maximum contrast needs and deep shadow effects */
+  --color-foundation-colors-brand-primary-850: #e2dbff;
+  /* Darkest purple brand color - use for text on light backgrounds and maximum contrast elements */
+  --color-foundation-colors-brand-primary-900: #ebe7ff;
+  /* Deepest purple brand color - use for maximum contrast, depth, and deep environmental shadows */
+  --color-foundation-colors-brand-primary-950: #f5f3ff;
+  /* Lightest orange brand color - use for subtle warm backgrounds, focus building ambiance, and calm work areas */
+  --color-foundation-colors-brand-professional-50: #1a1008;
+  /* Very light orange brand color - use for warm background tones, focus area ambient lighting, and concentration zones */
+  --color-foundation-colors-brand-professional-100: #4d3119;
+  /* Light orange brand color - use for warm subtle emphasis, focus space definition, and work area boundaries */
+  --color-foundation-colors-brand-professional-150: #4d3119;
+  /* Light-medium orange brand color - use for warm borders, accents, focus building exteriors, and work area boundaries */
+  --color-foundation-colors-brand-professional-200: #664121;
+  /* Medium-light orange brand color - use for warm duotone effects, focus area indicators, and concentration space accents */
+  --color-foundation-colors-brand-professional-300: #996132;
+  /* Medium orange brand color - use for warm interactive states, focus mode user glows, and deep work indicators */
+  --color-foundation-colors-brand-professional-400: #cc8242;
+  /* Main orange brand color - use for secondary actions, warm emphasis, focus building identification, and concentration markers */
+  --color-foundation-colors-brand-professional-500: #ffa253;
+  /* Medium-dark orange brand color - use for warm hover states, active focus states, and emphasized work areas */
+  --color-foundation-colors-brand-professional-600: #ffb575;
+  /* Dark orange brand color - use for warm pressed states, focus zone emphasis, and deep concentration indicators */
+  --color-foundation-colors-brand-professional-700: #ffc798;
+  /* Very dark orange brand color - use for warm high contrast, focus elements, and strong work area definition */
+  --color-foundation-colors-brand-professional-800: #ffdaba;
+  /* Extra dark orange brand color - use for warm maximum contrast, deep work shadows, and focus contrast */
+  --color-foundation-colors-brand-professional-850: #ffe3cb;
+  /* Darkest orange brand color - use for warm text on light backgrounds, focus text overlays, and maximum contrast work elements */
+  --color-foundation-colors-brand-professional-900: #ffecdd;
+  /* Deepest orange brand color - use for warm maximum depth, focus space contrast, and deep environmental definition */
+  --color-foundation-colors-brand-professional-950: #fff6ee;
+  /* Lightest lime brand color - use for fresh energetic backgrounds, creative space ambiance, and work-n-play areas */
+  --color-foundation-colors-brand-personal-50: #171a0e;
+  /* Very light lime brand color - use for creative space backgrounds, playful area lighting, and collaborative zones */
+  --color-foundation-colors-brand-personal-100: #2f331b;
+  /* Light lime brand color - use for creative subtle emphasis, playful area definition, and collaborative boundaries */
+  --color-foundation-colors-brand-personal-150: #464d29;
+  /* Light-medium lime brand color - use for creative borders, accents, work-n-play building exteriors, and creative area boundaries */
+  --color-foundation-colors-brand-personal-200: #5d6636;
+  /* Medium-light lime brand color - use for creative duotone effects, collaboration indicators, and playful space accents */
+  --color-foundation-colors-brand-personal-300: #8c9951;
+  /* Medium lime brand color - use for creative interactive states, work-n-play user glows, event indicators, and creative activity markers */
+  --color-foundation-colors-brand-personal-400: #bacc6c;
+  /* Main lime brand color - use for creative actions, fresh emphasis, work-n-play building identification, and creative area markers */
+  --color-foundation-colors-brand-personal-500: #e9ff87;
+  /* Medium-dark lime brand color - use for creative hover states, active creative states, and emphasized playful areas */
+  --color-foundation-colors-brand-personal-600: #edff9f;
+  /* Dark lime brand color - use for creative pressed states, zone emphasis, and strong playful area definition */
+  --color-foundation-colors-brand-personal-700: #f2ffb7;
+  /* Very dark lime brand color - use for creative high contrast, strong playful definition, and maximum creative emphasis */
+  --color-foundation-colors-brand-personal-800: #f6ffcf;
+  /* Extra dark lime brand color - use for creative maximum contrast, deep playful shadows, and creative contrast */
+  --color-foundation-colors-brand-personal-850: #f8ffdb;
+  /* Darkest lime brand color - use for creative text on light backgrounds, playful text overlays, and maximum contrast creative elements */
+  --color-foundation-colors-brand-personal-900: #fbffe7;
+  /* Deepest lime brand color - use for creative maximum depth, playful space contrast, and deep environmental shadows */
+  --color-foundation-colors-brand-personal-950: #fdfff3;
+  /* Lightest white tone - use for primary backgrounds, main surfaces, and clean environmental foundations */
+  --color-foundation-colors-neutral-white-50: #18181a;
+  /* Very light white tone - use for subtle surface variations, gentle backgrounds, and clean area definition */
+  --color-foundation-colors-neutral-white-100: #302f33;
+  /* Light white tone - use for gentle surface emphasis, soft backgrounds, and clean area boundaries */
+  --color-foundation-colors-neutral-white-150: #48474d;
+  /* Light-medium white tone - use for surface borders, dividers, and clean area separation */
+  --color-foundation-colors-neutral-white-200: #605e66;
+  /* Medium-light white tone - use for surface accents, gentle highlights, and clean environmental emphasis */
+  --color-foundation-colors-neutral-white-300: #908d99;
+  /* Medium white tone - use for surface emphasis, information boards, and neutral interactive surfaces */
+  --color-foundation-colors-neutral-white-400: #c0bccc;
+  /* Main white color - use for primary surfaces, backgrounds, input fields, and neutral foundations */
+  --color-foundation-colors-neutral-white-500: #f0ebff;
+  /* Medium-dark white tone - use for subtle text, icons, and gentle contrast elements */
+  --color-foundation-colors-neutral-white-600: #f3efff;
+  /* Dark white tone - use for secondary text, elements, and moderate contrast markers */
+  --color-foundation-colors-neutral-white-700: #f6f3ff;
+  /* Very dark white tone - use for strong contrast elements, emphasis, and clear definition */
+  --color-foundation-colors-neutral-white-800: #f9f7ff;
+  /* Extra dark white tone - use for maximum contrast needs and strong emphasis */
+  --color-foundation-colors-neutral-white-850: #faf9ff;
+  /* Darkest white tone - use for high contrast text and maximum emphasis */
+  --color-foundation-colors-neutral-white-900: #fcfbff;
+  /* Deepest white tone - use for maximum contrast depth and strong definition */
+  --color-foundation-colors-neutral-white-950: #fdfdff;
+  /* Lightest gray tone - use for subtle backgrounds, gentle separation, and soft container backgrounds */
+  --color-foundation-colors-neutral-gray-50: #121213;
+  /* Very light gray tone - use for container backgrounds, subtle emphasis, and gentle area definition */
+  --color-foundation-colors-neutral-gray-100: #232326;
+  /* Light gray tone - use for gentle borders, dividers, and soft area separation */
+  --color-foundation-colors-neutral-gray-150: #353539;
+  /* Light-medium gray tone - use for borders, inactive elements, quiet company indicators, and subtle boundaries */
+  --color-foundation-colors-neutral-gray-200: #47464c;
+  /* Medium-light gray tone - use for disabled states, subtle emphasis, and gentle contrast */
+  --color-foundation-colors-neutral-gray-300: #6a6973;
+  /* Medium gray tone - use for placeholder text, secondary elements, text-only mode indicators, and balanced tones */
+  --color-foundation-colors-neutral-gray-400: #8e8c99;
+  /* Main gray color - use for tertiary text, balanced neutral elements, and neutral foundations */
+  --color-foundation-colors-neutral-gray-500: #b1afbf;
+  /* Medium-dark gray tone - use for secondary text, icons, and balanced contrast elements */
+  --color-foundation-colors-neutral-gray-600: #c1bfcc;
+  /* Dark gray tone - use for primary text, important elements, and strong neutral emphasis */
+  --color-foundation-colors-neutral-gray-700: #d0cfd9;
+  /* Very dark gray tone - use for high contrast text, emphasis, and strong definition */
+  --color-foundation-colors-neutral-gray-800: #e0dfe5;
+  /* Extra dark gray tone - use for maximum contrast needs and deep shadows */
+  --color-foundation-colors-neutral-gray-850: #e8e7ec;
+  /* Darkest gray tone - use for maximum contrast text and deep emphasis */
+  --color-foundation-colors-neutral-gray-900: #efeff2;
+  /* Deepest gray tone - use for absolute maximum contrast and deep definition */
+  --color-foundation-colors-neutral-gray-950: #f7f7f9;
+  --color-foundation-colors-neutral-gray-duotone-1: #35353999;
+  --color-foundation-colors-neutral-gray-duotone-2: #6a6973e5;
+  --color-foundation-colors-neutral-gray-duotone-3: #b1afbfe5;
+  /* Pure white reference - use for maximum contrast against dark backgrounds and absolute light points */
+  --color-foundation-colors-neutral-black-00: #000000;
+  /* Lightest black tone - use for very subtle text, disabled states, and minimal emphasis elements */
+  --color-foundation-colors-neutral-black-50: #010101;
+  /* Very light black tone - use for subtle text, disabled states, and gentle contrast elements */
+  --color-foundation-colors-neutral-black-100: #020202;
+  /* Light black tone - use for placeholder text, subtle elements, and soft contrast */
+  --color-foundation-colors-neutral-black-150: #020202;
+  /* Light-medium black tone - use for secondary text, icons, and balanced contrast elements */
+  --color-foundation-colors-neutral-black-200: #030303;
+  /* Medium-light black tone - use for tertiary text, subtle emphasis, and gentle contrast markers */
+  --color-foundation-colors-neutral-black-300: #050505;
+  /* Medium black tone - use for secondary text, balanced elements, and moderate emphasis */
+  --color-foundation-colors-neutral-black-400: #060606;
+  /* Main black color - use for primary text with AAA accessibility compliance (7:1 contrast ratio) and strong emphasis */
+  --color-foundation-colors-neutral-black-500: #080808;
+  /* Medium-dark black tone - use for emphasized text, strong elements, and clear definition */
+  --color-foundation-colors-neutral-black-600: #393939;
+  /* Dark black tone - use for high contrast text, important elements, and strong emphasis markers */
+  --color-foundation-colors-neutral-black-700: #6b6b6b;
+  /* Very dark black tone - use for maximum contrast text, emphasis, and strong definition */
+  --color-foundation-colors-neutral-black-800: #9c9c9c;
+  /* Extra dark black tone - use for absolute contrast needs and deep shadow effects */
+  --color-foundation-colors-neutral-black-850: #b5b5b5;
+  /* Darkest black tone - use for deepest contrast needs and maximum emphasis */
+  --color-foundation-colors-neutral-black-900: #cecece;
+  /* Near-absolute black - use for maximum depth, contrast, and deep environmental shadows */
+  --color-foundation-colors-neutral-black-950: #e6e6e6;
+  /* Pure black - use for absolute maximum contrast, depth, and environmental definition */
+  --color-foundation-colors-neutral-black-1000: #ffffff;
+  /* Lightest success color - use for success backgrounds, gentle positive feedback, safe zone backgrounds, and comfort areas */
+  --color-foundation-colors-semantic-success-50: #04130d;
+  /* Very light success color - use for success alert backgrounds, support circle backgrounds, and positive environmental tones */
+  --color-foundation-colors-semantic-success-100: #09261a;
+  /* Light success color - use for subtle success emphasis and positive area definition */
+  --color-foundation-colors-semantic-success-150: #0d3a27;
+  /* Light-medium success color - use for success borders, accents, first-time friendly indicators, and positive highlights */
+  --color-foundation-colors-semantic-success-200: #124d34;
+  /* Medium-light success color - use for success duotone effects, ally indicators, safety rule accents, and positive interaction markers */
+  --color-foundation-colors-semantic-success-300: #1a734e;
+  /* Medium success color - use for success interactive states, positive feedback, and trust indicators */
+  --color-foundation-colors-semantic-success-400: #239a68;
+  /* Main success color - use for success actions, positive feedback, trust markers, and safety actions */
+  --color-foundation-colors-semantic-success-500: #2cc082;
+  /* Medium-dark success color - use for success text, icons, and strong positive emphasis */
+  --color-foundation-colors-semantic-success-600: #56cd9b;
+  /* Dark success color - use for success text on light backgrounds and strong trust markers */
+  --color-foundation-colors-semantic-success-700: #80d9b4;
+  /* Very dark success color - use for high contrast success text and maximum positive emphasis */
+  --color-foundation-colors-semantic-success-800: #abe6cd;
+  /* Extra dark success color - use for maximum success contrast and deep positive shadows */
+  --color-foundation-colors-semantic-success-850: #c0ecd9;
+  /* Darkest success color - use for maximum contrast success text and absolute positive emphasis */
+  --color-foundation-colors-semantic-success-900: #d5f2e6;
+  /* Deepest success color - use for absolute maximum success contrast and deep positive definition */
+  --color-foundation-colors-semantic-success-950: #eaf9f2;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-semantic-success-duotone: #0d3a2733;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-semantic-success-duotone-2: #1a734e33;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-semantic-success-duotone-3: #2cc08233;
+  /* Lightest warning color - use for warning backgrounds, gentle caution feedback, and attention areas */
+  --color-foundation-colors-semantic-warning-50: #191507;
+  /* Very light warning color - use for warning alert backgrounds and cautionary area ambiance */
+  --color-foundation-colors-semantic-warning-100: #322b0d;
+  /* Light warning color - use for subtle warning emphasis and cautionary area definition */
+  --color-foundation-colors-semantic-warning-150: #4c4014;
+  /* Light-medium warning color - use for warning borders, accents, and cautionary highlights */
+  --color-foundation-colors-semantic-warning-200: #65551a;
+  /* Medium-light warning color - use for warning duotone effects, cactus object colors, warning accents, and attention markers */
+  --color-foundation-colors-semantic-warning-300: #978027;
+  /* Medium warning color - use for warning interactive states and attention-required elements */
+  --color-foundation-colors-semantic-warning-400: #caaa34;
+  /* Main warning color - use for warning actions, caution feedback, and attention markers */
+  --color-foundation-colors-semantic-warning-500: #fcd541;
+  /* Medium-dark warning color - use for warning text, icons, and strong cautionary emphasis */
+  --color-foundation-colors-semantic-warning-600: #fddd67;
+  /* Dark warning color - use for warning text on light backgrounds and strong attention markers */
+  --color-foundation-colors-semantic-warning-700: #fde68d;
+  /* Very dark warning color - use for high contrast warning text and maximum cautionary emphasis */
+  --color-foundation-colors-semantic-warning-800: #feeeb3;
+  /* Extra dark warning color - use for maximum warning contrast and deep cautionary shadows */
+  --color-foundation-colors-semantic-warning-850: #fef2c6;
+  /* Darkest warning color - use for maximum contrast warning text and absolute cautionary emphasis */
+  --color-foundation-colors-semantic-warning-900: #fef7d9;
+  /* Deepest warning color - use for absolute maximum warning contrast and deep cautionary definition */
+  --color-foundation-colors-semantic-warning-950: #fffbec;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-semantic-warning-duotone: #4c401499;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-semantic-warning-duotone-2: #978027b2;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-semantic-warning-duotone-3: #fcd54199;
+  /* Lightest danger color - use for error backgrounds, gentle negative feedback, and critical area ambiance */
+  --color-foundation-colors-semantic-danger-50: #190c0a;
+  /* Very light danger color - use for error alert backgrounds and critical area definition */
+  --color-foundation-colors-semantic-danger-100: #331813;
+  /* Light danger color - use for subtle error emphasis and critical area boundaries */
+  --color-foundation-colors-semantic-danger-150: #4c241d;
+  /* Light-medium danger color - use for error borders, accents, and critical highlights */
+  --color-foundation-colors-semantic-danger-200: #663026;
+  /* Medium-light danger color - use for error duotone effects, alert borders, and critical markers */
+  --color-foundation-colors-semantic-danger-300: #984739;
+  /* Medium danger color - use for error interactive states and critical attention elements */
+  --color-foundation-colors-semantic-danger-400: #cb5f4c;
+  /* Main danger color - use for error actions, critical feedback, and danger markers */
+  --color-foundation-colors-semantic-danger-500: #fe775f;
+  /* Medium-dark danger color - use for error text, icons, and strong critical emphasis */
+  --color-foundation-colors-semantic-danger-600: #fe927f;
+  /* Dark danger color - use for error text on light backgrounds and strong danger markers */
+  --color-foundation-colors-semantic-danger-700: #fead9f;
+  /* Very dark danger color - use for high contrast error text and maximum critical emphasis */
+  --color-foundation-colors-semantic-danger-800: #ffc9bf;
+  /* Extra dark danger color - use for maximum error contrast and deep critical shadows */
+  --color-foundation-colors-semantic-danger-850: #ffd6cf;
+  /* Darkest danger color - use for maximum contrast error text and absolute critical emphasis */
+  --color-foundation-colors-semantic-danger-900: #ffe4df;
+  /* Deepest danger color - use for absolute maximum error contrast and deep critical definition */
+  --color-foundation-colors-semantic-danger-950: #fff1ef;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-semantic-danger-duotone: #4c241d33;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-semantic-danger-duotone-2: #98473933;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-semantic-danger-duotone-3: #fe775f33;
+  /* Lightest info color - use for info backgrounds, gentle informational feedback, and helpful area ambiance */
+  --color-foundation-colors-semantic-info-50: #091219;
+  /* Very light info color - use for info alert backgrounds, notification backgrounds, and helpful area definition */
+  --color-foundation-colors-semantic-info-100: #112432;
+  /* Light info color - use for subtle info emphasis and helpful area boundaries */
+  --color-foundation-colors-semantic-info-150: #1a374b;
+  /* Light-medium info color - use for info borders, accents, peer support indicators, and helpful highlights */
+  --color-foundation-colors-semantic-info-200: #234964;
+  /* Medium-light info color - use for info duotone effects, borders, accents, and helpful markers */
+  --color-foundation-colors-semantic-info-300: #346d96;
+  /* Medium info color - use for info interactive states and helpful attention elements */
+  --color-foundation-colors-semantic-info-400: #4692c8;
+  /* Main info color - use for info actions, informational feedback, and helpful markers */
+  --color-foundation-colors-semantic-info-500: #57b6fa;
+  /* Medium-dark info color - use for info text, icons, and strong helpful emphasis */
+  --color-foundation-colors-semantic-info-600: #79c5fb;
+  /* Dark info color - use for info text on light backgrounds and strong helpful markers */
+  --color-foundation-colors-semantic-info-700: #9ad3fc;
+  /* Very dark info color - use for high contrast info text and maximum helpful emphasis */
+  --color-foundation-colors-semantic-info-800: #bce2fd;
+  /* Extra dark info color - use for maximum info contrast and deep helpful shadows */
+  --color-foundation-colors-semantic-info-850: #cde9fd;
+  /* Darkest info color - use for maximum contrast info text and absolute helpful emphasis */
+  --color-foundation-colors-semantic-info-900: #ddf0fe;
+  /* Deepest info color - use for absolute maximum info contrast and deep helpful definition */
+  --color-foundation-colors-semantic-info-950: #eef8fe;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-semantic-info-duotone: #1a374bb2;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-semantic-info-duotone-2: #346d96cc;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-semantic-info-duotone-3: #57b6fae5;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-brand-primary-duotone: #2f294d33;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-brand-primary-duotone-2: #2f294d33;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-brand-primary-duotone-3: #5e519933;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-brand-primary-duotone-4: #9d87ffa8;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-brand-professional-duotone: #4d311933;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-brand-professional-duotone-2: #99613233;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-brand-professional-duotone-3: #ffa25333;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-brand-personal-duotone: #8c995133;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-brand-personal-duotone-2: #e9ff8733;
+  /* Lightest purple brand color - use for very subtle backgrounds, gentle highlights, and soft ambient effects */
+  --color-foundation-colors-brand-personal-duotone-3: #464d2933;
+}
